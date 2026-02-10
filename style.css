@@ -855,14 +855,11 @@ header .fast .box3 button{
    Media Queries: Small Mobile (<600px)
 ======================= */
 @media (max-width: 600px) {
-    .container{
-        max-width: 500px;
-    }
     body{
         background-image: url(img/telback.png);
         background-repeat: no-repeat;
         background-size: cover;
-        padding-bottom: 200px
+        padding-bottom: 250px
 }
     nav {
         width: 380px;
