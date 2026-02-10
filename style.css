@@ -1,0 +1,1066 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1600px;
+}
+
+body {
+    background-image: url(img/navback2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    background: linear-gradient(90deg,
+            #2b1d14,
+            #3a261a,
+            #2b1d14);
+    width: 1510px;
+    height: 200px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+nav img {
+    border-radius: 50%;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+
+header .dad .box h1 {
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+header .dad .box h1 i {
+    margin-right: 20px;
+    color: white;
+}
+
+header .dad {
+    margin-top: 50px;
+}
+
+header .dad .box {
+    background: linear-gradient(145deg, #2b1d14, #3a261a);
+    color: #f5e6c8;
+    width: 600px;
+    height: 80px;
+    border-radius: 14px;
+    box-shadow:
+        0 8px 20px rgba(0, 0, 0, 0.45),
+        inset 0 1px 0 rgba(255, 215, 160, 0.15);
+    transition: all 0.35s ease;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+header .dad .box:hover {
+    transform: translateY(-4px) scale(1.02);
+    box-shadow:
+        0 16px 35px rgba(0, 0, 0, 0.6),
+        inset 0 1px 0 rgba(255, 215, 160, 0.25);
+}
+
+header .dad .box:hover {
+    transform: translateY(1px) scale(0.98);
+    box-shadow:
+        0 6px 14px rgba(0, 0, 0, 0.5),
+        inset 0 3px 6px rgba(0, 0, 0, 0.6);
+}
+
+header .dad .box::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 14px;
+    border: 1px solid rgba(212, 175, 55, 0.35);
+    pointer-events: none;
+}
+
+header .menu {
+    margin-top: 30px;
+}
+
+header .menu .card h1 {
+    margin-top: 125px;
+    font-size: 50px;
+}
+
+header .menu .card {
+    width: 900px;
+    border: none;
+    height: 300px;
+    background: linear-gradient(145deg, #2b1d14, #3a261a);
+    color: #f5e6c8;
+    padding: 30px 20px;
+    border-radius: 130px;
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.45),
+        inset 0 1px 0 rgba(255, 215, 160, 0.15);
+    transition: all 0.4s ease;
+    margin-top: 30px;
+}
+
+header .menu .card:hover {
+    border: none;
+    transform: translateY(-6px) scale(1.03);
+    box-shadow:
+        0 22px 45px rgba(0, 0, 0, 0.65),
+        inset 0 1px 0 rgba(255, 215, 160, 0.25);
+}
+
+header .menu .card::before {
+    position: absolute;
+    inset: 0;
+    border-radius: 18px;
+    border: 1px solid rgba(212, 175, 55, 0.35);
+    border: none;
+}
+
+
+
+header .menu .card2 h1 {
+    margin-top: 125px;
+    font-size: 50px;
+}
+
+header .menu .card2 {
+    width: 900px;
+    border: none;
+    height: 300px;
+    background: linear-gradient(145deg, #2b1d14, #3a261a);
+    color: #f5e6c8;
+    padding: 30px 20px;
+    border-radius: 130px;
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.45),
+        inset 0 1px 0 rgba(255, 215, 160, 0.15);
+    transition: all 0.4s ease;
+    margin-top: 30px;
+}
+
+header .menu .card2:hover {
+    border: none;
+    transform: translateY(-6px) scale(1.03);
+    box-shadow:
+        0 22px 45px rgba(0, 0, 0, 0.65),
+        inset 0 1px 0 rgba(255, 215, 160, 0.25);
+}
+
+header .menu .card2::before {
+    position: absolute;
+    inset: 0;
+    border-radius: 18px;
+    border: 1px solid rgba(212, 175, 55, 0.35);
+    border: none;
+}
+
+
+header .menu .card3 h1 {
+    margin-top: 125px;
+    font-size: 50px;
+}
+
+header .menu .card3 {
+    width: 900px;
+    border: none;
+    height: 300px;
+    background: linear-gradient(145deg, #2b1d14, #3a261a);
+    color: #f5e6c8;
+    padding: 30px 20px;
+    border-radius: 130px;
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.45),
+        inset 0 1px 0 rgba(255, 215, 160, 0.15);
+    transition: all 0.4s ease;
+    margin-top: 30px;
+}
+
+header .menu .card3:hover {
+    border: none;
+    transform: translateY(-6px) scale(1.03);
+    box-shadow:
+        0 22px 45px rgba(0, 0, 0, 0.65),
+        inset 0 1px 0 rgba(255, 215, 160, 0.25);
+}
+
+header .menu .card3::before {
+    position: absolute;
+    inset: 0;
+    border-radius: 18px;
+    border: 1px solid rgba(212, 175, 55, 0.35);
+    border: none;
+}
+
+
+header .menu .card4 h1 {
+    margin-top: 125px;
+    font-size: 50px;
+}
+
+header .menu .card4 {
+    width: 900px;
+    border: none;
+    height: 300px;
+    background: linear-gradient(145deg, #2b1d14, #3a261a);
+    color: #f5e6c8;
+    padding: 30px 20px;
+    border-radius: 130px;
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.45),
+        inset 0 1px 0 rgba(255, 215, 160, 0.15);
+    transition: all 0.4s ease;
+    margin-top: 30px;
+}
+
+header .menu .card4:hover {
+    border: none;
+    transform: translateY(-6px) scale(1.03);
+    box-shadow:
+        0 22px 45px rgba(0, 0, 0, 0.65),
+        inset 0 1px 0 rgba(255, 215, 160, 0.25);
+}
+
+header .menu .card4::before {
+    position: absolute;
+    inset: 0;
+    border-radius: 18px;
+    border: 1px solid rgba(212, 175, 55, 0.35);
+    border: none;
+}
+
+
+header .menu .card5 h1 {
+    margin-top: 125px;
+    font-size: 50px;
+}
+
+header .menu .card5 {
+    width: 900px;
+    border: none;
+    height: 300px;
+    background: linear-gradient(145deg, #2b1d14, #3a261a);
+    color: #f5e6c8;
+    padding: 30px 20px;
+    border-radius: 130px;
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.45),
+        inset 0 1px 0 rgba(255, 215, 160, 0.15);
+    transition: all 0.4s ease;
+    margin-top: 30px;
+}
+
+header .menu .card5:hover {
+    border: none;
+    transform: translateY(-6px) scale(1.03);
+    box-shadow:
+        0 22px 45px rgba(0, 0, 0, 0.65),
+        inset 0 1px 0 rgba(255, 215, 160, 0.25);
+}
+
+header .menu .card5::before {
+    position: absolute;
+    inset: 0;
+    border-radius: 18px;
+    border: 1px solid rgba(212, 175, 55, 0.35);
+    border: none;
+}
+
+
+
+header .menu .card {
+    background-image: url(img/milliyback.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header .menu .card2 {
+    background-image: url(img/turkback.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header .menu .card3 {
+    background-image: url(img/kofeback.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header .menu .card4 {
+    background-image: url(img/saladback.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header .menu .card5 {
+    background-image: url(img/fastback.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header .milliy{
+    display: flex;
+}
+header .milliy .box{
+    width: 400px;
+    border: none;
+    height: 300px;
+    background: linear-gradient(145deg, #2b1d14, #3a261a);
+    color: #f5e6c8;
+    padding: 30px 20px;
+    border-radius: 30px;
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.45),
+        inset 0 1px 0 rgba(255, 215, 160, 0.15);
+    transition: all 0.4s ease;
+    margin-top: 30px;
+}
+header .milliy .box2{
+    width: 400px;
+    border: none;
+    height: 300px;
+    background: linear-gradient(145deg, #2b1d14, #3a261a);
+    color: #f5e6c8;
+    padding: 30px 20px;
+    border-radius: 30px;
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.45),
+        inset 0 1px 0 rgba(255, 215, 160, 0.15);
+    transition: all 0.4s ease;
+    margin-top: 30px;
+}
+header .milliy .box3{
+    width: 400px;
+    border: none;
+    height: 300px;
+    background: linear-gradient(145deg, #2b1d14, #3a261a);
+    color: #f5e6c8;
+    padding: 30px 20px;
+    border-radius: 30px;
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.45),
+        inset 0 1px 0 rgba(255, 215, 160, 0.15);
+    transition: all 0.4s ease;
+    margin-top: 30px;
+}
+header .milliy .box{
+    background-image: url(img/oshback.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header .milliy .box2{
+    background-image: url(img/mantiback.webp);
+        background-repeat: no-repeat;
+    background-size: cover;
+}
+header .milliy .box3{
+    background-image: url(img/somsaback2.jpg);
+        background-repeat: no-repeat;
+    background-size: cover;
+}
+header .milliy .box button{
+    width: 200px;
+    height: 60px;
+    border-radius: 40px;
+    border: none;
+    margin-top:265px;
+    margin-left: 85px;
+    background-color:  rgba(107, 71, 21, 0.751);
+    color: white;
+}
+header .milliy .box2 button{
+    width: 200px;
+    height: 60px;
+    border-radius: 40px;
+    border: none;
+    margin-top:265px;
+    margin-left: 95px;
+    background-color:  rgba(107, 71, 21, 0.751);
+    color: white;
+}
+header .milliy .box3 button{
+    width: 200px;
+    height: 60px;
+    border-radius: 40px;
+    border: none;
+    margin-top:265px;
+    margin-left: 95px;
+    background-color:  rgba(107, 71, 21, 0.751);
+    color: white;
+}
+
+
+
+
+
+header .turk{
+    display: flex;
+}
+header .turk .box{
+    width: 400px;
+    border: none;
+    height: 300px;
+    background: linear-gradient(145deg, #2b1d14, #3a261a);
+    color: #f5e6c8;
+    padding: 30px 20px;
+    border-radius: 30px;
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.45),
+        inset 0 1px 0 rgba(255, 215, 160, 0.15);
+    transition: all 0.4s ease;
+    margin-top: 30px;
+}
+header .turk .box2{
+    width: 400px;
+    border: none;
+    height: 300px;
+    background: linear-gradient(145deg, #2b1d14, #3a261a);
+    color: #f5e6c8;
+    padding: 30px 20px;
+    border-radius: 30px;
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.45),
+        inset 0 1px 0 rgba(255, 215, 160, 0.15);
+    transition: all 0.4s ease;
+    margin-top: 30px;
+}
+header .turk .box3{
+    width: 400px;
+    border: none;
+    height: 300px;
+    background: linear-gradient(145deg, #2b1d14, #3a261a);
+    color: #f5e6c8;
+    padding: 30px 20px;
+    border-radius: 30px;
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.45),
+        inset 0 1px 0 rgba(255, 215, 160, 0.15);
+    transition: all 0.4s ease;
+    margin-top: 30px;
+}
+header .turk .box{
+    background-image: url(img/juvajonback.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header .turk .box2{
+    background-image: url(img/kebabback.jpg);
+        background-repeat: no-repeat;
+    background-size: cover;
+}
+header .turk .box3{
+    background-image: url(img/oramaborakback.jpg);
+        background-repeat: no-repeat;
+    background-size: cover;
+}
+header .turk .box button{
+    width: 200px;
+    height: 60px;
+    border-radius: 40px;
+    border: none;
+    margin-top:265px;
+    margin-left: 85px;
+    background-color:  rgba(107, 71, 21, 0.751);
+    color: white;
+}
+header .turk .box2 button{
+    width: 200px;
+    height: 60px;
+    border-radius: 40px;
+    border: none;
+    margin-top:265px;
+    margin-left: 95px;
+    background-color:  rgba(107, 71, 21, 0.751);
+    color: white;
+}
+header .turk .box3 button{
+    width: 200px;
+    height: 60px;
+    border-radius: 40px;
+    border: none;
+    margin-top:265px;
+    margin-left: 95px;
+    background-color:  rgba(107, 71, 21, 0.751);
+    color: white;
+}
+
+
+
+
+
+header .kofe{
+    display: flex;
+}
+header .kofe .box{
+    width: 400px;
+    border: none;
+    height: 300px;
+    background: linear-gradient(145deg, #2b1d14, #3a261a);
+    color: #f5e6c8;
+    padding: 30px 20px;
+    border-radius: 30px;
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.45),
+        inset 0 1px 0 rgba(255, 215, 160, 0.15);
+    transition: all 0.4s ease;
+    margin-top: 30px;
+}
+header .kofe .box2{
+    width: 400px;
+    border: none;
+    height: 300px;
+    background: linear-gradient(145deg, #2b1d14, #3a261a);
+    color: #f5e6c8;
+    padding: 30px 20px;
+    border-radius: 30px;
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.45),
+        inset 0 1px 0 rgba(255, 215, 160, 0.15);
+    transition: all 0.4s ease;
+    margin-top: 30px;
+}
+header .kofe .box3{
+    width: 400px;
+    border: none;
+    height: 300px;
+    background: linear-gradient(145deg, #2b1d14, #3a261a);
+    color: #f5e6c8;
+    padding: 30px 20px;
+    border-radius: 30px;
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.45),
+        inset 0 1px 0 rgba(255, 215, 160, 0.15);
+    transition: all 0.4s ease;
+    margin-top: 30px;
+}
+header .kofe .box{
+    background-image: url(img/kokback.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header .kofe .box2{
+    background-image: url(img/kofeback.avif);
+        background-repeat: no-repeat;
+    background-size: cover;
+}
+header .kofe .box3{
+    background-image: url(img/qoraback2.jpg);
+        background-repeat: no-repeat;
+    background-size: cover;
+}
+header .kofe .box button{
+    width: 200px;
+    height: 60px;
+    border-radius: 40px;
+    border: none;
+    margin-top:265px;
+    margin-left: 85px;
+    background-color:  rgba(107, 71, 21, 0.751);
+    color: white;
+}
+header .kofe .box2 button{
+    width: 200px;
+    height: 60px;
+    border-radius: 40px;
+    border: none;
+    margin-top:265px;
+    margin-left: 95px;
+    background-color:  rgba(107, 71, 21, 0.751);
+    color: white;
+}
+header .kofe .box3 button{
+    width: 200px;
+    height: 60px;
+    border-radius: 40px;
+    border: none;
+    margin-top:265px;
+    margin-left: 95px;
+    background-color:  rgba(107, 71, 21, 0.751);
+    color: white;
+}
+
+
+
+
+
+
+header .salat{
+    display: flex;
+}
+header .salat .box{
+    width: 400px;
+    border: none;
+    height: 300px;
+    background: linear-gradient(145deg, #2b1d14, #3a261a);
+    color: #f5e6c8;
+    padding: 30px 20px;
+    border-radius: 30px;
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.45),
+        inset 0 1px 0 rgba(255, 215, 160, 0.15);
+    transition: all 0.4s ease;
+    margin-top: 30px;
+}
+header .salat .box2{
+    width: 400px;
+    border: none;
+    height: 300px;
+    background: linear-gradient(145deg, #2b1d14, #3a261a);
+    color: #f5e6c8;
+    padding: 30px 20px;
+    border-radius: 30px;
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.45),
+        inset 0 1px 0 rgba(255, 215, 160, 0.15);
+    transition: all 0.4s ease;
+    margin-top: 30px;
+}
+header .salat .box3{
+    width: 400px;
+    border: none;
+    height: 300px;
+    background: linear-gradient(145deg, #2b1d14, #3a261a);
+    color: #f5e6c8;
+    padding: 30px 20px;
+    border-radius: 30px;
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.45),
+        inset 0 1px 0 rgba(255, 215, 160, 0.15);
+    transition: all 0.4s ease;
+    margin-top: 30px;
+}
+header .salat .box{
+    background-image: url(img/chuchukback.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header .salat .box2{
+    background-image: url(img/mevaliback2.jpg);
+        background-repeat: no-repeat;
+    background-size: cover;
+}
+header .salat .box3{
+    background-image: url(img/sabziback.webp);
+        background-repeat: no-repeat;
+    background-size: cover;
+}
+header .salat .box button{
+    width: 200px;
+    height: 60px;
+    border-radius: 40px;
+    border: none;
+    margin-top:265px;
+    margin-left: 85px;
+    background-color:  rgba(107, 71, 21, 0.751);
+    color: white;
+}
+header .salat .box2 button{
+    width: 200px;
+    height: 60px;
+    border-radius: 40px;
+    border: none;
+    margin-top:265px;
+    margin-left: 95px;
+    background-color:  rgba(107, 71, 21, 0.751);
+    color: white;
+}
+header .salat .box3 button{
+    width: 200px;
+    height: 60px;
+    border-radius: 40px;
+    border: none;
+    margin-top:265px;
+    margin-left: 95px;
+    background-color:  rgba(107, 71, 21, 0.751);
+    color: white;
+}
+
+
+
+
+
+header .fast{
+    display: flex;
+}
+header .fast .box{
+    width: 400px;
+    border: none;
+    height: 300px;
+    background: linear-gradient(145deg, #2b1d14, #3a261a);
+    color: #f5e6c8;
+    padding: 30px 20px;
+    border-radius: 30px;
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.45),
+        inset 0 1px 0 rgba(255, 215, 160, 0.15);
+    transition: all 0.4s ease;
+    margin-top: 30px;
+}
+header .fast .box2{
+    width: 400px;
+    border: none;
+    height: 300px;
+    background: linear-gradient(145deg, #2b1d14, #3a261a);
+    color: #f5e6c8;
+    padding: 30px 20px;
+    border-radius: 30px;
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.45),
+        inset 0 1px 0 rgba(255, 215, 160, 0.15);
+    transition: all 0.4s ease;
+    margin-top: 30px;
+}
+header .fast .box3{
+    width: 400px;
+    border: none;
+    height: 300px;
+    background: linear-gradient(145deg, #2b1d14, #3a261a);
+    color: #f5e6c8;
+    padding: 30px 20px;
+    border-radius: 30px;
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.45),
+        inset 0 1px 0 rgba(255, 215, 160, 0.15);
+    transition: all 0.4s ease;
+    margin-top: 30px;
+}
+header .fast .box{
+    background-image: url(img/burgerback.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header .fast .box2{
+    background-image: url(img/lavashback.avif);
+        background-repeat: no-repeat;
+    background-size: cover;
+}
+header .fast .box3{
+    background-image: url(img/hotback.jpg);
+        background-repeat: no-repeat;
+    background-size: cover;
+}
+header .fast .box button{
+    width: 200px;
+    height: 60px;
+    border-radius: 40px;
+    border: none;
+    margin-top:265px;
+    margin-left: 85px;
+    background-color:  rgba(107, 71, 21, 0.751);
+    color: white;
+}
+header .fast .box2 button{
+    width: 200px;
+    height: 60px;
+    border-radius: 40px;
+    border: none;
+    margin-top:265px;
+    margin-left: 95px;
+    background-color:  rgba(107, 71, 21, 0.751);
+    color: white;
+}
+header .fast .box3 button{
+    width: 200px;
+    height: 60px;
+    border-radius: 40px;
+    border: none;
+    margin-top:265px;
+    margin-left: 95px;
+    background-color:  rgba(107, 71, 21, 0.751);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+    nav {
+        height: 180px;
+        border-bottom-left-radius: 80px;
+        border-bottom-right-radius: 80px;
+    }
+    
+    header .menu .card,
+    header .menu .card2,
+    header .menu .card3,
+    header .menu .card4,
+    header .menu .card5 {
+        width: 80%;
+        height: 250px;
+    }
+    
+    header .menu .card h1,
+    header .menu .card2 h1,
+    header .menu .card3 h1,
+    header .menu .card4 h1,
+    header .menu .card5 h1 {
+        font-size: 40px;
+        margin-top: 100px;
+    }
+
+    header .milliy .box,
+    header .milliy .box2,
+    header .milliy .box3,
+    header .turk .box,
+    header .turk .box2,
+    header .turk .box3,
+    header .kofe .box,
+    header .kofe .box2,
+    header .kofe .box3,
+    header .salat .box,
+    header .salat .box2,
+    header .salat .box3,
+    header .fast .box,
+    header .fast .box2,
+    header .fast .box3 {
+        width: 90%;
+        height: 250px;
+        padding: 15px;
+    }
+
+    header .milliy .box button,
+    header .milliy .box2 button,
+    header .milliy .box3 button,
+    header .turk .box button,
+    header .turk .box2 button,
+    header .turk .box3 button,
+    header .kofe .box button,
+    header .kofe .box2 button,
+    header .kofe .box3 button,
+    header .salat .box button,
+    header .salat .box2 button,
+    header .salat .box3 button,
+    header .fast .box button,
+    header .fast .box2 button,
+    header .fast .box3 button {
+        width: 150px;
+        height: 50px;
+        margin-top: 220px;
+        margin-left: calc(50% - 75px); /* markazlashtirish */
+        font-size: 16px;
+    }
+}
+
+/* =======================
+   Media Queries: Small Mobile (<600px)
+======================= */
+@media (max-width: 600px) {
+    .container{
+        max-width: 500px;
+    }
+    body{
+        background-image: url(img/telback.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 135px
+}
+    nav {
+        width: 380px;
+        height: 150px;
+        border-bottom-left-radius: 80px;
+        border-bottom-right-radius: 80px;
+    }
+    header .dad .box{
+        width: 350px;
+    }
+    header .dad .box h1{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    header .menu .card{
+        border-radius: 25px;
+    }
+    header .menu .card2{
+        border-radius: 25px;
+    }
+    header .menu .card3{
+        border-radius: 25px;
+    }
+    header .menu .card4{
+        border-radius: 25px;
+    }
+    header .menu .card5{
+        border-radius: 25px;
+    }
+    header .milliy{
+        flex-direction: column;
+    }
+    header .milliy .box h1{
+        font-size: 20px;
+    }
+     header .milliy .box2 h1{
+        font-size: 20px;
+    }
+     header .milliy .box3 h1{
+        font-size: 20px;
+    }
+     header .milliy .box4 h1{
+        font-size: 20px;
+    }
+    header .milliy .box button{
+        margin-top:200px ;
+    }
+    header .milliy .box2 button{
+        margin-top:200px ;
+    }
+    header .milliy .box3 button{
+        margin-top:200px ;
+    }
+    header .milliy .box4 button{
+        margin-top:200px ;
+    }
+    header .milliy .box button{
+        margin-top:200px ;
+    }
+
+
+
+
+
+
+    header .turk{
+        flex-direction: column;
+    }
+    header .turk .box h1{
+        font-size: 20px;
+    }
+     header .turk .box2 h1{
+        font-size: 20px;
+    }
+     header .turk .box3 h1{
+        font-size: 20px;
+    }
+     header .turk .box4 h1{
+        font-size: 20px;
+    }
+    header .turk .box button{
+        margin-top:200px ;
+    }
+    header .turk .box2 button{
+        margin-top:200px ;
+    }
+    header .turk .box3 button{
+        margin-top:200px ;
+    }
+    header .turk .box4 button{
+        margin-top:200px ;
+    }
+    header .turk .box button{
+        margin-top:200px ;
+    }
+
+
+
+
+
+
+        header .kofe{
+        flex-direction: column;
+    }
+    header .kofe .box h1{
+        font-size: 20px;
+    }
+     header .kofe .box2 h1{
+        font-size: 20px;
+    }
+     header .kofe .box3 h1{
+        font-size: 20px;
+    }
+     header .kofe .box4 h1{
+        font-size: 20px;
+    }
+    header .kofe .box button{
+        margin-top:200px ;
+    }
+    header .kofe .box2 button{
+        margin-top:200px ;
+    }
+    header .kofe .box3 button{
+        margin-top:200px ;
+    }
+    header .kofe .box4 button{
+        margin-top:200px ;
+    }
+    header .kofe .box button{
+        margin-top:200px ;
+    }
+
+
+
+
+
+            header .salat{
+        flex-direction: column;
+    }
+    header .salat .box h1{
+        font-size: 20px;
+    }
+     header .salat .box2 h1{
+        font-size: 20px;
+    }
+     header .salat .box3 h1{
+        font-size: 20px;
+    }
+     header .salat .box4 h1{
+        font-size: 20px;
+    }
+    header .salat .box button{
+        margin-top:200px ;
+    }
+    header .salat .box2 button{
+        margin-top:200px ;
+    }
+    header .salat .box3 button{
+        margin-top:200px ;
+    }
+    header .salat .box4 button{
+        margin-top:200px ;
+    }
+    header .salat .box button{
+        margin-top:200px ;
+    }
+
+
+
+
+                header .fast{
+        flex-direction: column;
+    }
+    header .fast .box h1{
+        font-size: 20px;
+    }
+     header .fast .box2 h1{
+        font-size: 20px;
+    }
+     header .fast .box3 h1{
+        font-size: 20px;
+    }
+     header .fast .box4 h1{
+        font-size: 20px;
+    }
+    header .fast .box button{
+        margin-top:200px ;
+    }
+    header .fast .box2 button{
+        margin-top:200px ;
+    }
+    header .fast .box3 button{
+        margin-top:200px ;
+    }
+    header .fast .box4 button{
+        margin-top:200px ;
+    }
+    header .fast .box button{
+        margin-top:200px ;
+    }
+}
